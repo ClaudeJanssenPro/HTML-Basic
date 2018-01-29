@@ -1,0 +1,12 @@
+/*High Contrast*/
+
+body {
+    background-color: DarkSlateGray;
+    color: white;
+}
+
+h1 {
+    color: Yellow;
+    margin-left: 20px;
+    text-shadow: 3px 2px gray;
+}
