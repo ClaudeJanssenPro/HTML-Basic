@@ -5,7 +5,7 @@ body {
 }
 
 .alignc {
-  padding: 50% 0;
+  padding: 10% 0;
   text-align: center;
       }
 
@@ -28,8 +28,8 @@ body {
   font-family: 'Athiti', sans-serif;
   font-size: 1em;
   text-shadow: 2px 2px 8px #aaa;
-  text-transform: lowercase;
-  font-style: italic;
+  /*text-transform: lowercase;
+  font-style: italic;*/
 }
 
 .code {
@@ -52,6 +52,17 @@ body {
                4px 4px 5px rgba(0,0,0,0.7),
                0px 0px 7px rgba(0,0,0,0.4);
   text-transform: uppercase;
+}
+.unpowered {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.125em;
+  text-shadow: -1px -1px 1px #white,
+               0px 4px 1px rgba(0,0,0,0.5),
+               4px 4px 5px rgba(0,0,0,0.7),
+               0px 0px 7px rgba(0,0,0,0.4);
+  text-transform: lowercase;
 }
 /*!
  * animate.css -http://daneden.me/animate
@@ -100,4 +111,8 @@ body {
 	border-color: #333;
 	transform: rotate(1080deg);
 	border-radius: 50%;
+}
+
+a:link {
+    text-decoration: none;
 }
